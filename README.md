@@ -90,33 +90,33 @@ Primary dataset: Superstore 2025
 ## SQL Highlights
 
 RFM Segmentation
-       - Classified customers using percentile-based scoring for Recency, Frequency, and Monetary value.
-       - Segments include: Champion, Loyal, At Risk, Lost, Big Spenders, Other.
+- Classified customers using percentile-based scoring for Recency, Frequency, and Monetary value.
+- Segments include: Champion, Loyal, At Risk, Lost, Big Spenders, Other.
 
 Churn Analysis
-       - Built churn risk models by Product Category, Ship Mode, and Region.
-       - Identified high-churn zones for retention campaigns.
+- Built churn risk models by Product Category, Ship Mode, and Region.
+- Identified high-churn zones for retention campaigns.
 
 Customer Lifetime Value (CLV)
-       - Computed Predictive CLV (1-Year) using average order value × frequency × tenure.
-       - Combined with engagement scores for Marketing Matrix Segmentation.
+- Computed Predictive CLV (1-Year) using average order value × frequency × tenure.
+- Combined with engagement scores for Marketing Matrix Segmentation.
 
 Marketing Segmentation
-       - Derived Value Segments (High, Medium, Low) and Engagement Segments.
-       - Combined into actionable categories:
-              - VIP Retention
-              - VIP Win-Back
-              - Growth Opportunity
-              - Reactivation Campaign
+- Derived Value Segments (High, Medium, Low) and Engagement Segments.
+- Combined into actionable categories:
+       - VIP Retention
+       - VIP Win-Back
+       - Growth Opportunity
+       - Reactivation Campaign
 
 --- 
 
 ## Python & Machine Learning
 
 Time-Series Forecasting (Prophet)  
-       - Trained a Prophet model on daily sales to forecast the next 6 months.
-       - Forecast outputs (PredictedSales, Lower/Upper Bounds) written back to SQL (vw_Sales_Forecast).
-       - Integrated into Power BI for Sales Forecasting Dashboard.
+- Trained a Prophet model on daily sales to forecast the next 6 months.
+- Forecast outputs (PredictedSales, Lower/Upper Bounds) written back to SQL (vw_Sales_Forecast).
+- Integrated into Power BI for Sales Forecasting Dashboard.
 
 --- 
 
