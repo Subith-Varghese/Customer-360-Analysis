@@ -16,18 +16,6 @@ The goal of this project is to enable a retail business (Superstore dataset) to:
 
 ---
 
-## Tech Stack
-
-| Tool | Purpose |
-|------|----------|
-| **SQL Server** | Data modeling, RFM segmentation, churn & CLV views |
-| **Python (Pandas, Prophet, SQLAlchemy)** | Data extraction, cleaning, and predictive sales forecasting |
-| **Power BI** | Interactive dashboards, DAX measures, KPI visualization |
-| **DAX** | KPI calculation and dynamic segmentation logic |
-| **Excel** | Preliminary data validation and ETL staging |
-
----
-
 ## Project Architecture
 
 ```
@@ -135,3 +123,15 @@ Time-Series Forecasting (Prophet)
 - Enhance supply chain optimization in underperforming regions.
 - Implement predictive sales monitoring for inventory planning.
 - Use VIP Win-Back strategies to re-engage dormant high-value customers.
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|----------|
+| **SQL Server** | Data modeling, RFM segmentation, churn & CLV views |
+| **Python (Pandas, Prophet, SQLAlchemy)** | Data extraction, cleaning, and predictive sales forecasting |
+| **Power BI** | Interactive dashboards, DAX measures, KPI visualization |
+| **DAX** | KPI calculation and dynamic segmentation logic |
+
