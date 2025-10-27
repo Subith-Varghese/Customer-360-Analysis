@@ -104,10 +104,10 @@ Customer Lifetime Value (CLV)
 Marketing Segmentation
 - Derived Value Segments (High, Medium, Low) and Engagement Segments.
 - Combined into actionable categories:
-       - VIP Retention
-       - VIP Win-Back
-       - Growth Opportunity
-       - Reactivation Campaign
+  - VIP Retention
+  - VIP Win-Back
+  - Growth Opportunity
+  - Reactivation Campaign
 
 --- 
 
